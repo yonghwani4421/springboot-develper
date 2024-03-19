@@ -1,4 +1,14 @@
 spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 880082537200-j2jvt1egd6l1e8f4pkpeg11c9khmlt8e.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - email
+              - profile
   jpa:
     show-sql: true
     properties:
